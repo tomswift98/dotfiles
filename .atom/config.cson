@@ -1,0 +1,10 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "one-light-ui"
+      "solarized-light-syntax"
+    ]
+  "exception-reporting":
+    userId: "20ab82dd-4347-4100-bfb9-fc420e29b3aa"
+  "ide-vala": {}
