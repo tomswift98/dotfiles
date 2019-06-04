@@ -1,10 +1,13 @@
 "*":
   core:
     telemetryConsent: "no"
-    themes: [
-      "one-light-ui"
-      "solarized-light-syntax"
-    ]
+  editor:
+    fontSize: 13
   "exception-reporting":
     userId: "20ab82dd-4347-4100-bfb9-fc420e29b3aa"
   "ide-vala": {}
+  "language-generic-config":
+    requireMinimumMatchingLines: 1
+".generic-config.text":
+  editor:
+    showInvisibles: true
