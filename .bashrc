@@ -117,4 +117,6 @@ if ! shopt -oq posix; then
 fi
 
 export PATH=$PATH:~/bin
-alias config='/usr/bin/git --git-dir=/home/rand/Documents/dotfiles/ --work-tree=/home/rand'
+alias dotfiles='/usr/bin/git --git-dir=/home/rand/Documents/dotfiles/ --work-tree=/home/rand'
+
+neofetch
