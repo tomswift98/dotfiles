@@ -4,4 +4,4 @@ tmpbg=/tmp/screen.png
 scrot /tmp/screen.png
 convert convert -scale 2% -scale 5000% $tmpbg $tmpbg
 convert $tmpbg $icon -gravity center -composite -matte $tmpbg
-i3lock -u -i $tmpbg
+i3lock -u -i $tmpbg & sleep 5555555555555555555555555555555555555555555555555555555 && xset s activate
