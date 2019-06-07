@@ -180,6 +180,9 @@ smart_gaps on
 bar {
         tray_output none
         status_command i3blocks -c ~/.config/i3/i3blocks.conf
+	bindsym button4 nop
+	bindsym button5 nop
+	bindsym button1 nop
 }
 
 exec_always --no-startup-id compton --config ~/.config/compton.conf -b &
