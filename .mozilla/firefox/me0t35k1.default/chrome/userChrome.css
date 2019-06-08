@@ -1,0 +1,55 @@
+density="compact"]:root {
+  --tab-min-height: 20px !important;
+  --newtab-margin: -3px 0 -3px -3px !important;
+}
+
+:root[uidensity="compact"] #tabbrowser-tabs {
+  --tab-min-height: var(--tab-min-height) !important;
+}
+
+.tabbrowser-tab {
+  max-height: var(--tab-min-height) !important;
+}
+
+.tabs-newtab-button{
+  margin: var(--newtab-margin) !important;
+}
+
+
+#context-sendpagetodevice, #context-sep-sendpagetodevice,
+#context-sendlinktodevice, #context-sep-sendlinktodevice,
+#context_sendTabToDevice, #context_sendTabToDevice_separator {
+  display: none !important;
+}
+
+:root:not([uidensity="compact"]) #back-button > .toolbarbutton-icon {
+  background-color: unset !important;
+  border: unset !important;
+  padding: var(--toolbarbutton-inner-padding) !important;
+  border-radius: var(--toolbarbutton-border-radius) !important;
+  width: calc(2 * var(--toolbarbutton-inner-padding) + 16px) !important;
+}
+
+/* Hover and Active states to mimic other buttons */
+:root:not([uidensity="compact"]) #back-button:hover:not([disabled]) > .toolbarbutton-icon {
+  background-color: var(--toolbarbutton-hover-background) !important;
+}
+
+:root:not([uidensity="compact"]) #back-button:active:not([disabled]) > .toolbarbutton-icon {
+  background-color: var(--toolbarbutton-active-background) !important;
+}
+
+/* Remove pre-padding */
+:root:not([uidensity="compact"]) #back-button {
+  padding-inline-start: 3px !important;
+}
+
+#nav-bar {
+  height: 34px !important;
+}
+
+#nav-bar .toolbarbutton-1:not([type="menu-button"]), 
+#nav-bar .toolbarbutton-1 > .toolbarbutton-menubutton-button, 
+#nav-bar .toolbarbutton-1 > .toolbarbutton-menubutton-dropmarker {
+  padding: 0 !important; 
+}
