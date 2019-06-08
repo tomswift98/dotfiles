@@ -39,11 +39,6 @@ density="compact"]:root {
   background-color: var(--toolbarbutton-active-background) !important;
 }
 
-/* Remove pre-padding */
-:root:not([uidensity="compact"]) #back-button {
-  padding-inline-start: 3px !important;
-}
-
 #nav-bar {
   height: 34px !important;
 }
