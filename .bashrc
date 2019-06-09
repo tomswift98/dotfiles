@@ -118,5 +118,9 @@ fi
 
 export PATH=$PATH:~/bin
 alias dotfiles='/usr/bin/git --git-dir=/home/rand/Documents/dotfiles/ --work-tree=/home/rand'
+alias v='vim'
+alias fm='pcmanfm'
+alias i='sudo apt install'
+alias r='sudo apt remove'
 
 neofetch
