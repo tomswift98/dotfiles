@@ -123,6 +123,6 @@ alias fm='pcmanfm'
 alias i='sudo apt install'
 alias r='sudo apt remove'
 
-export PS1="\W > "
+export PS1="{\W} >_ "
 
 neofetch
