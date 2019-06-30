@@ -86,7 +86,7 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # focus the child container
-#bindsym $mod+d focus child
+bindsym $mod+c focus child
 
 # switch to workspace
 bindsym $mod+1 workspace $workspace1
@@ -172,6 +172,8 @@ bar {
 	bindsym button5 nop
 	bindsym button1 nop
 	strip_workspace_numbers yes
+	mode hide
+	hidden_state hide
 }
 
 exec_always --no-startup-id compton --config ~/.config/compton.conf -b &
